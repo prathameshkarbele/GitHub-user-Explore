@@ -1,0 +1,80 @@
+.search-form{
+    background: #333;
+    padding: 10px 40px;
+    border-radius: 10px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+.search-form  form{
+    margin: 10px 0;
+}
+.search-form input{
+    width: 70%;
+}
+.search-form input, 
+.search-form button {
+    outline: none;
+    padding: 14px;
+    border-radius: 7px;
+    border: none;
+}
+.search-form button{
+    padding: 14px, 40px;
+    background: #64e92c;
+    margin: 0 8px;
+    color: white;
+
+}
+.user{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+   align-items: center;
+   padding: 20px 30px;
+   border-bottom: #444 solid 1px;
+
+} 
+.user .image{
+    width: 20%;
+}
+.user .image img{
+    width: 100%;
+    border-radius: 10%;
+}
+.user-info{
+    display: flex;
+    padding: 0 10px;
+    flex-direction: column;
+}
+.serach-resualt{
+    background-color: #f5f5f5;
+    padding: 10px 0px;
+    margin: 20px 0px;
+    border-radius: 10px;
+}
+/* Pagination */
+.more-options{
+    margin-top: 10px;
+    padding-left: 20px;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+}
+.pagination {
+    padding: 0 20px;
+}
+.pagination button{
+    background-color: #333;
+    color: #fff;
+    margin: 0 5px;
+}
+.more-options select,
+.pagination button{
+    outline: none;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
